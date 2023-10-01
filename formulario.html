@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <main class="bg-black h-[80px] flex justify-center items-center 	">
+        <h1 class="text-white text-4xl font-bold	">Formulario - Validación REGEX</h1>
+               
+    </main>
+    <section class="h-full flex justify-center bg-amber-500 items-center">
+            <form action="" id="formulario" class="grid grid-cols-2	grid-rows-2 gap-[20px] py-[20px] w-[450px]">
+                <label class="font-sans	text-xl font-bold" for="nombres">Nombres</label>
+                <input type="text" class="border-2 w-[200px] text-center" text-center" id="nombres" >
+                <label class="font-sans	text-xl font-bold" for="apellidos">Apellidos</label>
+                <input type="text" class="border-2 w-[200px] text-center"" id="apellidos" >
+                <label class="font-sans	text-xl font-bold" for="edad">Edad</label>
+                <input type="number" class="border-2 w-[200px] text-center"" id="edad" min="1" max="150" >
+                <label class="font-sans	text-xl font-bold" for="nacimiento">Fecha de nacimiento</label>
+                <input type="text" class="border-2 w-[200px] text-center"" id="nacimiento" >
+                <label class="font-sans	text-xl font-bold" for="cedula">Cédula</label>
+                <input type="text" class="border-2 w-[200px] text-center"" id="cedula">
+                <label class="font-sans	text-xl font-bold" for="ip">Dirección IP</label>
+                <input type="text" class="border-2 w-[200px] text-center"" id="ip">
+                <label class="font-sans	text-xl font-bold" for="mac">Dirección MAC</label>
+                <input type="text" class="border-2 w-[200px] text-center"" id="mac">
+                <label class="font-sans	text-xl font-bold" for="telefono">Teléfono</label>
+                <input type="text" class="border-2 w-[200px] text-center"" id="telefono">
+                <input class="ml-[60px] bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded w-[100px]" type="submit" value="Validar" id="submit">
+                <input class="ml-[60px]  bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded w-[100px]" type="reset" value="Reset" id="reset">
+            </form>
+    </section>
+
+    
+    
+    <script src="main2.js"></script>
+</body>
+</html>
